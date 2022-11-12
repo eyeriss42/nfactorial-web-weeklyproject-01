@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Kanit:wght@400;600&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F1F1F1;
+    width: 100%;
+}
+
+.content{
+    height: 2324px;
+}
+
+/* header */
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 12px 80px;
+    gap: 748px; 
+}
+
+.nav_logo{
+    display: grid;
+    column-gap: 8px;
+    grid-template-columns: min-content min-content;
+    margin: 0px;
+    align-self: center;
+}
+
+.jumys_tap{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500px;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.nav_actions{
+    display: grid;
+    grid-template-columns: min-content min-content min-content min-content;
+}
+
+.simple_button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border: none;
+    background-color: #F1F1F1;
+    width: max-content;
+    border-radius: 100px;
+    width: 111px;
+    height: 38px;
+    left: 164px;
+    top: 396px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.simple_button:hover{
+    background: rgba(8, 30, 52, 0.08);
+}
+
+.simple_button:focus{
+    background: rgba(8, 30, 52, 0.12);
+} 
+
+/* active aka pressed on figma */
+.simple_button:active{
+    background: rgba(8, 30, 52, 0.12);
+}
+
+.simple_button:disabled{
+    color: #1C1B1F;
+}
+
+.nav_advanced_button{
+    border: none;
+    border-radius: 100px;
+    padding: 10px 12px;
+    gap: 10px;
+    width: 102px;
+    height: 38px;
+    background: rgba(8, 30, 52, 0.12);
+    border-radius: 100px;
+    width: max-content;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+}
+
+.nav_advanced_button:hover{
+    background: rgba(8, 30, 52, 0.08);  
+}
+
+.nav_advanced_button:focus{
+    background: rgba(8, 30, 52, 0.12);
+}
+
+.nav_advanced_button:active{
+    background: rgba(8, 30, 52, 0.12);
+}
+
+.nav_advanced_button:disabled{
+    color: #1C1B1F;
+    background: rgba(31, 31, 31, 0.12);
+}
+
+/* content */
+
+.content{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+/* 1st segment */
+.first_segment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 80px;
+    gap: 165px;
+    align-content: center;
+    height: 620px;
+}
+
+.first_segment_text_box{
+    display: grid;
+    width: 495px;
+    overflow-wrap: break-word;
+    align-items: center;
+}
+
+/* your should be on next line */
+.first_segment_title{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    word-wrap: break-word;
+    width: 380px;
+}
+
+.first_segment_description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    width: 495px;
+    height: 44px;
+}
+
+.how_it_works_button{
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: #712FFF;
+    border: 0;
+    border-radius: 100px;
+    padding: 16p, 24px;
+    color: white;
+    cursor: pointer;
+    gap: 8px;
+    width: 144px;
+    height: 50px;
+}
+
+.how_it_works_button:hover{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    background: rgba(113, 47, 255, 1);
+}
+
+.how_it_works_button:focus{
+    background: rgba(113, 47, 255, 1);
+}
+
+.how_it_works_button:active{
+    background: rgba(113, 47, 255, 1);
+}
+
+.how_it_works_button:disabled{
+    background: rgba(31, 31, 31, 0.12);
+    color: #1C1B1F;
+}
+
+.girl_laptop_picture{
+    justify-self: center;
+}
+
+/* 2nd segment */
+
+.second_segment{
+    display: grid;
+    background-color: #E1DEE7;
+    height: 562px;
+    padding: 0px 80px;
+    gap: 86px;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    border-radius: 32px;
+}
+
+.second_segment_upper{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.lorem{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    justify-self: center;
+    padding-top: 103px;
+}
+
+.how_it_works_title{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+}
+
+.steps{
+    font-family: 'Inter';
+    font-style: normal;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 103px;
+    gap: 40px;
+}
+
+.step_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.step_description{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.step_1{
+    display: grid;
+    grid-template-rows: 4fr 2fr 1fr;
+}
+
+.step_2{
+    display: grid;
+    grid-template-rows: 4fr 2fr 1fr;
+
+}
+
+.step_3{
+    display: grid;    
+    grid-template-rows: 4fr 2fr 1fr;
+
+}
+
+/* 3rd segment */
+.third_segment{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 80px;
+    height: 422px;
+    margin-bottom: 0px;
+    align-items: stretch;
+    align-content: center;
+}
+
+.third_segment_text_box{
+    display: grid;
+    align-items: center;
+    overflow-wrap: break-word;
+    grid-template-rows: 1fr 1fr;
+}
+
+.third_segment_title{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+}
+
+.third_segment_description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    word-wrap: break-word;
+    width: 480px;
+}
+
+.searchbar_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 60px;
+}
+
+.searchbar{
+    margin-right: 10px;
+    height: 60px;
+}
+
+.search{
+    background-image: url(./assets/search.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    outline: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #E1DEE7;
+    width: 619px;
+    height: 50px;
+    border-radius: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(204, 204, 204);
+}
+
+.find_a_job_button{
+    padding: 16px 24px;
+    gap: 10px;
+    width: 106px;
+    height: 50px;
+    background: #712FFF;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    width: max-content;
+    border: none;
+}
+
+.find_a_job_button:hover{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    background: rgba(113, 47, 255, 1);
+}
+
+.find_a_job_button:focus{
+    background: rgba(113, 47, 255, 1);
+}
+
+.find_a_job_button:active{
+    background: rgba(113, 47, 255, 1);
+}
+
+.find_a_job_button:disabled{
+    background: rgba(31, 31, 31, 0.12);
+    color: #1C1B1F;
+}
+
+/* 4th segment */
+
+.fourth_segment{
+    margin-top: 0px;
+    display: grid;
+    padding: 0px 80px;
+    gap: 165px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 548px;
+}
+
+.girl_cv_picture{
+    display: grid;
+    justify-content: baseline;
+    justify-self: center;
+}
+
+.fourth_segment_text_box{
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr;
+    width: 495px;
+    overflow-wrap: break-word;
+    align-items: center;
+    align-content: space-between;
+}
+
+.fourth_segment_title{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+}
+
+.fourth_segment_description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.upload_button{
+    display: inline-flex;
+    font-family: 'Inter';
+    font-style: normal;
+    background: #712FFF;
+    padding: 10px 24px 10px 16px;
+    gap: 8px;
+    cursor: pointer;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    outline: none;
+    overflow: hidden;
+
+}
+
+.upload_button:hover{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    background: rgba(113, 47, 255, 1);
+}
+
+.upload_button:focus{
+    background: rgba(113, 47, 255, 1);
+}
+
+.upload_button:active{
+    background: rgba(113, 47, 255, 1);
+}
+
+.upload_button:disabled{
+    background: rgba(31, 31, 31, 0.12);
+    color: #1C1B1F;
+}
+
+.footer{
+    display: flex;
+    background:  #FFFFFF;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 172px;
+    padding: 32px 80px;
+    gap: 32px;
+    border-radius: 32px 32px 0px 0px;
+}
+
+.footer_1{
+    background:  #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+}
+
+.footer_actions{
+    font-family: 'Inter';
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+
+.credits{
+    font-family: 'Inter';
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+    opacity: 0.5;
+}
+
+.footer_2{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+    
+}
+
+.footer_button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border: none;
+    background-color: #FFFFFF;
+    width: max-content;
+    border-radius: 100px;
+    width: 111px;
+    height: 38px;
+    left: 164px;
+    top: 396px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.footer_button:hover{
+    background: rgba(8, 30, 52, 0.08);
+}
+
+.footer_button:focus{
+    background: rgba(8, 30, 52, 0.12);
+} 
+
+.footer_button:active{
+    background: rgba(8, 30, 52, 0.12);
+}
+
+.footer_button:disabled{
+    color: #1C1B1F;
+}
+
+/* thank you for checking out the code! */
